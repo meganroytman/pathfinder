@@ -8,7 +8,7 @@ Pathfinder is a statistical fine-mapping framework that integrates genome, chrom
 Pathfinder outputs the posterior probability of causality for each possible SNP-mark-expression path throughout the region.
 
 # Usage
-Download pathfinder.R into your desired target directory. To run the software using R, type:
+Download the pathfinder repository into your desired target directory. We have provided some sample data for testing purposes. To run the software from the command line using R, type:
 
 $ Rscript SampleData/assoc_1.txt SampleData/ld_snps_1.txt SampleData/ld_peaks_1.txt outfile.txt 5
 
