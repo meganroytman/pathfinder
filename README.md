@@ -10,7 +10,7 @@ Pathfinder outputs the posterior probability of causality for each possible SNP-
 # Usage
 Download the pathfinder repository into your desired target directory. We have provided some sample data for testing purposes. To run the software from the command line using R, type:
 
-$ Rscript SampleData/assoc_1.txt SampleData/ld_snps_1.txt SampleData/ld_peaks_1.txt outfile.txt 5
+$ Rscript pathfinder.R SampleData/assoc_1.txt SampleData/ld_snps_1.txt SampleData/ld_peaks_1.txt outfile.txt 5
 
 The first line of outfile.txt (after the header) should read: 1 1 4.47714061045043e-12
 
